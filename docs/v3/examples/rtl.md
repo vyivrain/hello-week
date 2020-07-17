@@ -11,10 +11,4 @@ new HelloWeek({
 });
 ```
 
-## Demonstration
-
-<iframe
-    src="docs/v3/demos/rtl.html"
-    frameborder="no"
-    allowfullscreen="allowfullscreen">
-</iframe>
+[RTL](../demos/rtl.html ':include :type=iframe width=100% height=600px')

@@ -18,10 +18,4 @@ new HelloWeek({
 });
 ```
 
-## Demonstration
-
-<iframe
-    src="docs/v3/demos/before-create-day.html"
-    frameborder="no"
-    allowfullscreen="allowfullscreen">
-</iframe>
+[Before Create Day](../demos/before-create-day.html ':include :type=iframe width=100% height=600px')

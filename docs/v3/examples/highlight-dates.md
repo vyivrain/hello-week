@@ -34,10 +34,4 @@ const calendar = new HelloWeek({
 });
 ```
 
-## Demonstration
-
-<iframe
-    src="docs/v3/demos/highlights.html"
-    frameborder="no"
-    allowfullscreen="allowfullscreen">
-</iframe>
+[Highlight Dates](../demos/highlights.html ':include :type=iframe width=100% height=600px')

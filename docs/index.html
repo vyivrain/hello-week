@@ -9,6 +9,12 @@
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" title="buble">
+
+  <style>
+    .markdown-section iframe {
+      border: 0;
+    }
+  </style>
 </head>
 
 <body>
@@ -16,23 +22,25 @@
   <script>
     window.$docsify = {
       name: 'Hello Week',
-      auto2top: true,
-      coverpage: true,
-      executeScript: true,
       loadSidebar: true,
-      loadNavbar: true,
-      mergeNavbar: true,
-      maxLevel: 4,
-      subMaxLevel: 2,
       search: {
         noData: {
           '/': 'No results!'
         },
-        paths: 'auto',
         placeholder: {
-          '/': 'Search'
+          '/': 'Search the docs...'
         },
         formatUpdated: '{MM}/{DD} {HH}:{mm}',
+        plugins: [
+          function(hook, vm) {
+            hook.beforeEach(function(html) {
+              console.log('Hi');
+              const url = 'https://github.com/mauroreisvieira/hello-week/blob/master/docs/v3/' + vm.route.file;
+              const editHtml = '[:memo: Edit Document](' + url + ')\n'
+              return editHtml + html
+            })
+          }
+        ]
       },
     }
   </script>

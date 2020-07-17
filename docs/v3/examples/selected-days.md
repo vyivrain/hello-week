@@ -16,4 +16,4 @@ new HelloWeek({
 
 ## Demonstration
 
-[cinwell website](../demos/selected-days.html ':include :type=iframe width=100% height=400px')
+[Selected Days](../demos/selected-days.html ':include :type=iframe width=100% height=600px')

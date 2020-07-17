@@ -21,10 +21,4 @@ document.querySelector('.btn').addEventListener('click', () => {
 });
 ```
 
-## Demonstration
-
-<iframe
-    src="docs/v3/demos/locked.html"
-    frameborder="no"
-    allowfullscreen="allowfullscreen">
-</iframe>
+[Locked](../demos/locked.html ':include :type=iframe width=100% height=600px')

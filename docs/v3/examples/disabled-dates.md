@@ -10,11 +10,4 @@ new HelloWeek({
     disableDates: [['2020-03-02', '2020-03-12']],
 });
 ```
-
-## Demonstration
-
-<iframe
-    src="docs/v3/demos/disabled-dates.html"
-    frameborder="no"
-    allowfullscreen="allowfullscreen">
-</iframe>
+[Disabled Dates](../demos/disabled-dates.html ':include :type=iframe width=100% height=600px')

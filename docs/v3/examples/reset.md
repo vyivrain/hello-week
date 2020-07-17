@@ -22,10 +22,4 @@ document.querySelector('.btn').addEventListener('click', () => {
 });
 ```
 
-## Demonstration
-
-<iframe
-    src="docs/v3/demos/reset.html"
-    frameborder="no"
-    allowfullscreen="allowfullscreen">
-</iframe>
+[Reset](../demos/reset.html ':include :type=iframe width=100% height=600px')

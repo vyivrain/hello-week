@@ -13,10 +13,4 @@ const calendar = new HelloWeek({
 });
 ```
 
-## Demonstration
-
-<iframe
-    src="docs/v3/demos/go-to-date.html"
-    frameborder="no"
-    allowfullscreen="allowfullscreen">
-</iframe>
+[Go to Date](../demos/go-to-date.html ':include :type=iframe width=100% height=600px')

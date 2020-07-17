@@ -24,10 +24,4 @@ const from = new HelloWeek({
 });
 ```
 
-## Demonstration
-
-<iframe
-    src="docs/v3/demos/min-max.html"
-    frameborder="no"
-    allowfullscreen="allowfullscreen">
-</iframe>
+[Min & Max](../demos/min-max.html ':include :type=iframe width=100% height=600px')

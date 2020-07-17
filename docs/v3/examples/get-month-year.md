@@ -14,10 +14,4 @@ const calendar = new HelloWeek({
 });
 ```
 
-## Demonstration
-
-<iframe
-    src="docs/v3/demos/get-month-year.html"
-    frameborder="no"
-    allowfullscreen="allowfullscreen">
-</iframe>
+[Get Month & Year](../demos/get-month-year.html ':include :type=iframe width=100% height=600px')
