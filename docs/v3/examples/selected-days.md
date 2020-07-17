@@ -16,8 +16,4 @@ new HelloWeek({
 
 ## Demonstration
 
-<iframe
-    src="docs/v3/demos/selected-days.html"
-    frameborder="no"
-    allowfullscreen="allowfullscreen">
-</iframe>
+[cinwell website](../demos/selected-days.html ':include :type=iframe width=100% height=400px')
