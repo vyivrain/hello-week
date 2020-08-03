@@ -6,7 +6,7 @@ This gives you the ability to listen for any changes and perform your own action
 
 ```js
 new HelloWeek({
-  onNavigation: () => {}
+  onMonthChange: () => {}
   onSelect: () => {}
 });
 ```
@@ -15,5 +15,5 @@ new HelloWeek({
 
 | Property                 | Value Type   | Description                                |
 | ------------------------ | ------------ | ------------------------------------------ |
-| `onNavigation() => void` | `attachable` | Triggered when the user change month/year. |
+| `onMonthChange() => void` | `attachable` | Triggered when the user change month/year. |
 | `onSelect() => void`     | `attachable` | Triggered when the user clicks on a day.   |

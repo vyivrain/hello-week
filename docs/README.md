@@ -72,7 +72,7 @@ new HelloWeek({
   nav: ['◀', '▶'],
   timezoneOffset: new Date().getTimezoneOffset(),
   onLoad: () => void;
-  onNavigation: () => void;
+  onMonthChange: () => void;
   onSelect: (data: IDayOptions) => IDayOptions;
   beforeLoad: () => void;
   beforeCreateDay: (data: IDayOptions) => IDayOptions;

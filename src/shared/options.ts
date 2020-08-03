@@ -29,7 +29,7 @@ export const defaults: Options = {
     onLoad: () => {
         /** callback */
     },
-    onNavigation: () => {
+    onMonthChange: () => {
         /** callback */
     },
     onSelect: (data: DayOptions) => data,

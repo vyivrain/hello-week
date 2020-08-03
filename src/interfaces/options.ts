@@ -22,7 +22,7 @@ export interface Options {
     nav: ['◀', '▶'];
     timezoneOffset?: number;
     onLoad: () => void;
-    onNavigation: () => void;
+    onMonthChange: () => void;
     onSelect: (data: DayOptions) => DayOptions;
     beforeLoad: () => void;
     beforeCreateDay: (data: DayOptions) => DayOptions;

@@ -76,12 +76,12 @@ export class HelloWeek {
      *  @return void
      */
     prev(): void {
-        const { onNavigation } = this.options.get();
+        const { onMonthChange } = this.options.get();
         const prevMonth = this.date.getMonth() - 1;
         this.date.setMonth(prevMonth);
         this.update();
 
-        onNavigation();
+        onMonthChange();
     }
 
     /**
@@ -89,12 +89,12 @@ export class HelloWeek {
      *  @return void
      */
     next(): void {
-        const { onNavigation } = this.options.get();
+        const { onMonthChange } = this.options.get();
         const nextMonth = this.date.getMonth() + 1;
         this.date.setMonth(nextMonth);
         this.update();
 
-        onNavigation();
+        onMonthChange();
     }
 
     /**
@@ -102,12 +102,12 @@ export class HelloWeek {
      * @return {void}
      */
     prevYear(): void {
-        const { onNavigation } = this.options.get();
+        const { onMonthChange } = this.options.get();
         const prevYear = this.date.getFullYear() - 1;
         this.date.setFullYear(prevYear);
         this.update();
 
-        onNavigation();
+        onMonthChange();
     }
 
     /**
@@ -115,12 +115,12 @@ export class HelloWeek {
      * @return {void}
      */
     nextYear(): void {
-        const { onNavigation } = this.options.get();
+        const { onMonthChange } = this.options.get();
         const nextYear = this.date.getFullYear() + 1;
         this.date.setFullYear(nextYear);
         this.update();
 
-        onNavigation();
+        onMonthChange();
     }
 
     /**

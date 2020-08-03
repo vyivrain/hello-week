@@ -8,7 +8,7 @@ Locks all days in calendar.
 const calendar = new HelloWeek({
     selector: '.calendar',
     locked: true,
-    onNavigation: () => {
+    onMonthChange: () => {
         calendar.setLocked(false);
         calendar.update();
     },

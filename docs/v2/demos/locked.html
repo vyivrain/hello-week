@@ -16,7 +16,7 @@
                 selector: '.calendar',
                 langFolder: './langs/',
                 locked: true,
-                onNavigation: () => {
+                onMonthChange: () => {
                     calendar.setLocked(false);
                     calendar.update();
                 },

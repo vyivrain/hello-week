@@ -15,6 +15,6 @@ new HelloWeek({
 | Property       | Value Type   | Description                                |
 | -------------- | ------------ | ------------------------------------------ |
 | `onLoad`       | `attachable` | Dispatch immediately after initialization. |
-| `onNavigation` | `attachable` | Dispatch after month change.               |
+| `onMonthChange` | `attachable` | Dispatch after month change.               |
 | `onSelect`     | `attachable` | Dispatch on select the day.                |
 | `onClear`      | `attachable` | Dispatch on clear calendar.                |
