@@ -248,14 +248,10 @@ export class HelloWeek {
     }
 
     private beforeCreate() {
-        const { rtl, langFolder, lang } = this.options.get();
+        const { rtl, lang } = this.options.get();
         this.isRTL = rtl ? margins.RIGHT : margins.LEFT;
-        import(langFolder + lang + '.js')
-            .then((data: any) => data)
-            .then((data: any) => {
-                this.langs.set(data.default);
-            })
-            .then(() => this.beforeMount());
+        this.langs.set(lang);
+        this.beforeMount();
     }
 
     private beforeMount() {

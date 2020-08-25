@@ -17,10 +17,10 @@ Whenever a user clicks on a date in the calendar, the selected day(s) are return
 
 The `calendar` can only be used inside of HelloWeek.
 
-- **Multiple pick**
- -   In case multiple picks is set, all clicked dates are returned
+-   **Multiple pick**
+-   In case multiple picks is set, all clicked dates are returned
 
-- **Range**
- -   In case a range is set, all dates between the first and the last clicked date are returned
+-   **Range**
+-   In case a range is set, all dates between the first and the last clicked date are returned
 
 [On Select](../demos/on-select.html ':include :type=iframe width=100% height=600px')

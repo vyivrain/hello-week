@@ -34,7 +34,12 @@ export default [
         input: entryFile,
         output: outputConfigs,
         plugins: [
-            !IS_PRODUCTION && serve(),
+            !IS_PRODUCTION &&
+                serve({
+                    open: true,
+                    host: 'localhost',
+                    port: 10001
+                }),
             scss({
                 output: 'dist/hello.week.css',
             }),
@@ -50,10 +55,10 @@ export default [
         ],
     },
     {
-        input: fs.readdirSync('src/langs').map(e => 'src/langs/' + e),
+        input: fs.readdirSync('src/langs').map((e) => 'src/langs/' + e),
         output: {
             dir: 'dist/langs/',
-            format: 'es',
+            format: 'esm',
         },
         plugins: [
             typescript({

@@ -7,7 +7,6 @@ Locks all days in calendar.
 ```js
 const calendar = new HelloWeek({
     selector: '.calendar',
-    langFolder: './langs/',
     locked: true,
 });
 

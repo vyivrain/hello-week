@@ -13,7 +13,7 @@ new HelloWeek({
 
 ## Properties
 
-| Property                 | Value Type   | Description                                |
-| ------------------------ | ------------ | ------------------------------------------ |
+| Property                  | Value Type   | Description                                |
+| ------------------------- | ------------ | ------------------------------------------ |
 | `onMonthChange() => void` | `attachable` | Triggered when the user change month/year. |
-| `onSelect() => void`     | `attachable` | Triggered when the user clicks on a day.   |
+| `onSelect() => void`      | `attachable` | Triggered when the user clicks on a day.   |

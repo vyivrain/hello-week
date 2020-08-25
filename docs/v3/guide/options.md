@@ -15,8 +15,7 @@ new HelloWeek({
 | Property            | Value Type           | Default Value   | Description                                                                      |
 | ------------------- | -------------------- | --------------- | -------------------------------------------------------------------------------- |
 | `selector`          | `string`             | `.hello-week`   | Define selector to use as a calendar.                                            |
-| `lang`              | `string`             | `en`            | Determines which translation file will be read.                                  |
-| `langFolder`        | `string`             | `./dist/langs/` | Determines folder path of your languages.                                        |
+| `lang`              | `Lang`               | `en`            | Determines which translation file will be read.                                  |
 | `format`            | `string`             | `dd/mm/yyyy`    | Format also determines which components are displayed.                           |
 | `weekShort`         | `boolean`            | `true`          | Sets the format of the week.                                                     |
 | `monthShort`        | `boolean`            | `false`         | Sets the format of the month.                                                    |

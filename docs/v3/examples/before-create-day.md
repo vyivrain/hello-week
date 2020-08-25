@@ -7,14 +7,18 @@ A hook for modifying a day DOM.
 ```js
 new HelloWeek({
     selector: '.calendar',
-    beforeCreateDay: data => {
-      return { 
-        ...data, 
-        ... {
-          node: el('div', data.attributes, el('span', {}, data.day.toString()))
-        }
-      }
-    }
+    beforeCreateDay: (data) => {
+        return {
+            ...data,
+            ...{
+                node: el(
+                    'div',
+                    data.attributes,
+                    el('span', {}, data.day.toString())
+                ),
+            },
+        };
+    },
 });
 ```
 

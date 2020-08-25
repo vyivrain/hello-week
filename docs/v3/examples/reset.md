@@ -7,7 +7,6 @@ Method reset calendar to initial value.
 ```js
 const calendar = new HelloWeek({
     selector: '.calendar',
-    langFolder: './langs/',
     todayHighlight: true,
     minDate: '2020-10-10',
     maxDate: '2021-03-28',

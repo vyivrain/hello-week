@@ -1,9 +1,9 @@
 import { Options, DayOptions } from '../interfaces/index';
+import { en } from '../langs/index';
 
 export const defaults: Options = {
     selector: '.hello-week',
-    lang: 'en',
-    langFolder: './langs/',
+    lang: en,
     format: 'DD/MM/YYYY',
     monthShort: false,
     weekShort: true,

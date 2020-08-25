@@ -4,8 +4,14 @@
         <meta charset="UTF-8" />
         <title>Min & Max | Hello Week</title>
         <link href="../../assets/styles/main.css" rel="stylesheet" />
-        <link href="https://cdn.jsdelivr.net/npm/hello-week@3.0.4-beta/dist/hello.week.css" rel="stylesheet" />
-        <link href="https://cdn.jsdelivr.net/npm/hello-week@3.0.4-beta/dist/default.theme.css" rel="stylesheet" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/hello-week@3.0.4-beta/dist/hello.week.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/hello-week@3.0.4-beta/dist/default.theme.css"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <main>
@@ -23,7 +29,6 @@
             import { HelloWeek } from 'https://cdn.jsdelivr.net/npm/hello-week@3.0.4-beta/dist/hello.week.esm.js';
             const to = new HelloWeek({
                 selector: '#to',
-                langFolder: './langs/',
                 todayHighlight: false,
                 onSelect: () => {
                     from.setMinDate(to.getLastDaySelected());
@@ -33,7 +38,6 @@
 
             const from = new HelloWeek({
                 selector: '#from',
-                langFolder: './langs/',
                 todayHighlight: false,
                 onSelect: () => {
                     to.setMaxDate(from.getLastDaySelected());

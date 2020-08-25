@@ -7,7 +7,7 @@ You simply need to indicate which language you want at HelloWeek initialization.
 
 To add more languages, simply translate the example below, to the language you want and include this
 file in `dist/langs` or other directory you wanted, then just initialize the calendar with you new language,
-and if you changed the directory you only need to indicate the `langFolder` in HelloWeek options.
+and if you changed the directory you only need to import the language and inject on `lang` in HelloWeek options.
 
 **Quick Example:**
 

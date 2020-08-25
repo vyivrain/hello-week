@@ -1,7 +1,8 @@
+import { Langs } from './langs';
+
 export interface Options {
     selector: string;
-    lang: string;
-    langFolder: string;
+    lang: Langs;
     format: string;
     defaultDate?: string | null;
     todayHighlight: boolean;

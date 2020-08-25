@@ -24,7 +24,7 @@ yarn add hello-week
 
 <script type="text/javascript" src="hello.week.min.js"></script>
 <script>
-  new HelloWeek();
+    new HelloWeek();
 </script>
 ```
 
@@ -32,13 +32,13 @@ yarn add hello-week
 
 ```html
 <div class="hello-week">
-  <div class="navigation">
-    <button class="prev">Prev</button>
-    <div class="period"></div>
-    <button class="next">Next</button>
-  </div>
-  <div class="week"></div>
-  <div class="month"></div>
+    <div class="navigation">
+        <button class="prev">Prev</button>
+        <div class="period"></div>
+        <button class="next">Next</button>
+    </div>
+    <div class="week"></div>
+    <div class="month"></div>
 </div>
 ```
 
@@ -51,7 +51,6 @@ Default values are presented below.
 new HelloWeek({
   selector: '.hello-week',
   lang: 'en',
-  langFolder: './langs/',
   format: 'DD/MM/YYYY',
   defaultDate: null,
   todayHighlight: true,
@@ -72,7 +71,7 @@ new HelloWeek({
   nav: ['◀', '▶'],
   timezoneOffset: new Date().getTimezoneOffset(),
   onLoad: () => void;
-  onMonthChange: () => void;
+  onNavigation: () => void;
   onSelect: (data: IDayOptions) => IDayOptions;
   beforeLoad: () => void;
   beforeCreateDay: (data: IDayOptions) => IDayOptions;
@@ -92,18 +91,18 @@ new HelloWeek({
 
 ### Useful links
 
-- [Examples](https://hello-week.now.sh/#/)
-- [Changelog](CHANGELOG.md)
-- [Contributing](CONTRIBUTING.md)
+-   [Examples](https://hello-week.now.sh/#/)
+-   [Changelog](CHANGELOG.md)
+-   [Contributing](CONTRIBUTING.md)
 
 ### Supported Browsers:
 
-- Chrome 49
-- Firefox 31
-- Opera 36
-- Safari 9.3
-- Edge 17
-- iOS Safari 6.0
+-   Chrome 49
+-   Firefox 31
+-   Opera 36
+-   Safari 9.3
+-   Edge 17
+-   iOS Safari 6.0
 
 ### License
 

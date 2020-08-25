@@ -7,7 +7,6 @@ Set day/days highlight, with different customizes.
 ```js
 const calendar = new HelloWeek({
     selector: '.calendar',
-    langFolder: './langs/',
     todayHighlight: false,
     onSelect: (data) => {
         const { date } = data;
