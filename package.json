@@ -32,6 +32,7 @@
     },
     "scripts": {
         "dev": "rollup -c -w",
+        "docs": "docsify serve ./docs",
         "build": "yarn run lint && yarn run prettier && rollup -c --environment NODE_ENV:production",
         "prettier": "prettier --write \"src/**/**/*.ts?(x)\" \"docs/**/demos/*.html\" \"docs/**/*.md\"",
         "lint": "eslint \"src/*.ts\" \"src/**/*.ts\" \"__tests__/*.ts\"",
